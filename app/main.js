@@ -8,4 +8,5 @@ app.on('ready', () => {
       width: 800
   });
 
+  mainWindow.loadURL('file://' + __dirname + '/index.html');
 });
