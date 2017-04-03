@@ -15,7 +15,7 @@ describe('Sample Test', function () {
     });
 
     it('should search', function() {
-        var input = 'Zulip Electron';
+        var input = 'electron.atom.io';
         return this.app.client.url('https://duckduckgo.com')
             .setValue('#search_form_input_homepage', input)
             .getValue("#search_form_input_homepage")
